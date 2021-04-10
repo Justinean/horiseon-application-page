@@ -4,12 +4,12 @@
     margin: 0;
 }
 
-/* Body */
+/* Changes body background color */
 body {
     background-color: #d9dcd6;
 }
 
-/* Header */
+/* Changes the font family, color of text, and the background color of the header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,15 +17,18 @@ body {
     color: #ffffff;
 }
 
+/* Changes the header to inline objects */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Changes the seo in Horiseon to gray */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Changes padding, margin, font family, font size and move the text to the right side */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -35,23 +38,24 @@ body {
     list-style-type: none;
 }
 
+/* Changes the list in the header to inline */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* Hyperlink element*/
+/* Changes hyperlink color to white and removed underline */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* Paragraph element*/
+/* Changes all paragraphs to 16px font size */
 p {
     font-size: 16px;
 }
 
-/* Hero class */
+/* Displays the main big picture */
 .hero {
     height: 800px;
     width: 100%;
@@ -61,23 +65,26 @@ p {
     background-position: center;
 }
 
+/* Moves text to the left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Moves next to the right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/* Content class */
+/* Changes the margin and had the image and text on the same line */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Changes the margin, padding, height, font family, background color, and text color */
 .content div {
     margin-bottom: 20px;
     padding: 50px;
@@ -87,16 +94,18 @@ p {
     color: #ffffff;
 }
 
+/* Changes image height */
 .content div img {
     max-height: 200px;
 }
 
+/* Changes header font size and margin */
 .content div h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* Benefit class */
+/* Changes the benefit class margin, padding, width, height, font family, background color, and moves the text to the right */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -108,23 +117,26 @@ p {
     background-color: #2589bd;
 }
 
+/* Changes the margin and color of the benefit's divs */
 .benefits div {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Changes margin and centers the headers in benefits */
 .benefits div h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Changes margin and width of benefit's images */
 .benefits div img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* Footer */
+/* Changes padding, font family, and centers the text of the footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -132,6 +144,7 @@ p {
     text-align: center;
 }
 
+/* Changes the font size of the header */
 .footer h2 {
     font-size: 20px;
 }
