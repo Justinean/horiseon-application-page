@@ -1,7 +1,10 @@
 # Horiseon Application Page
-Application page for Horiseon. \
-This page will tell you about the benefits of working with Horiseon and what the application is capable of. \
-For example, you can use it for better search engine optimization, social media marketing, and online reputation management. 
+
+## Description
+
+I fixed up css, added comments to, and consolidated some css classes and elements. /
+I also added alt tags to the images. /
+Lastly, I revised the semantic tags so they were accurate as to what they were actually doing. /
 
 ![](./assets/images/horiseon.png)
 
